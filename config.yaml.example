@@ -1,0 +1,77 @@
+
+admin_user_id: 00000000000000000
+guild_id: 00000000000000000
+moderator_role_id: 00000000000000000
+
+files:
+  assets_path: "assets"
+  ticket_config: "tickets_config.yaml"
+  radio_config: "radio_config.yaml"
+  tickets_db: "cache/tickets.yaml"
+  tickets_meta: "cache/tickets_meta.yaml"
+  ticket_message_id_file: "cache/ticket_message_id.txt"
+  radio_message_id_file: "cache/radio_message_id.txt"
+
+mysql:
+  host: "0.0.0.0"
+  port: 3306
+  user: "dbuser"
+  password: "dbpass"
+  database: "dbname"
+
+#NOTE: you need to install the "VesperBridge" plugin on your server and configure it with the same token as below, 
+#otherwise the bot will not be able to communicate with the server
+api:
+  host: "0.0.0.0" # Put the IP of the server with the "VesperBridge" plugin here
+  port: 00000
+  token: "<Generate a random token and put it here>" # token for the "VesperBridge" plugin
+
+whitelist:
+  review_channel_id: 00000000000000000
+  roles:
+    application_submitted: 00000000000000000
+    whitelisted: 00000000000000000
+    unverified: 00000000000000000
+
+uwatch:
+  log_channel_id: 00000000000000000
+
+radio:
+  cooldowntime: 3600
+
+chating:
+  api_key: "" #generate a new key at https://openrouter.ai or https://platform.openai.com/api-keys and put it here
+  base_url: "https://openrouter.ai/api/v1" #  u can https://api.openai.com/v1 or any other compatible endpoint
+  model_name: "model/model_name" #  u can use any model in your router
+
+  memory_limit: 5 # how many messages from discord user to keep in memory
+  system_prompt_path: "prompts/system_prompt.txt"  # i use this prompt to set the behavior of the bot, you can write/generate your own prompt in this file
+
+  disabled_channels:
+    - 00000000000000000
+    - 00000000000000000
+
+targeting:
+  api_key: ""
+  base_url: "https://openrouter.ai/api/v1"
+  model_name: "model/model_name"
+
+  chart_template_path: "assets/chart_template.json"
+  styles_prompt_path: "prompts/styles_prompt.txt"
+  why_prompt_path: "prompts/why_prompt.txt"
+  traffic_prompt_path: "prompts/traffic_prompt.txt"
+
+  max_analysis_entries: 200
+  min_player_age: 10.0
+  max_player_age: 40.0
+  max_pie_chart_slices: 6
+  max_summary_length: 200
+
+  embed_color: 0x4F3D74
+  ai_icon_emoji: "<:z2_AI:1460894759445856440>"
+
+  disabled_channels:
+    - 00000000000000000
+
+bloom:
+  role_id: 0000000000000

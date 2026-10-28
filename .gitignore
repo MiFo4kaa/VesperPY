@@ -1,0 +1,5 @@
+config.yaml
+radio_config.yaml
+tickets_config.yaml
+cogs/__pycache__/
+venv2/

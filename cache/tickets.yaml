@@ -1,0 +1,84 @@
+'1497919546470695003':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-04-26T11:17:30.182571'
+  creator_id: 1305664715040755724
+  ticket_number: 14
+  ticket_type: Создать поселение
+'1499503914951774388':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-04-30T20:13:12.913055'
+  creator_id: 1472631143672320093
+  ticket_number: 28
+  ticket_type: Создать поселение
+'1500935234890502437':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-05-04T19:00:46.284915'
+  creator_id: 454938249375514624
+  ticket_number: 36
+  ticket_type: Создать поселение
+'1504566156990746835':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-05-14T19:28:45.564573'
+  creator_id: 1166748116054200371
+  ticket_number: 42
+  ticket_type: Создать поселение
+'1504894877022949417':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-05-15T17:14:58.492258'
+  creator_id: 503111095918264322
+  ticket_number: 43
+  ticket_type: Баг на сервере
+'1505249983149117483':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-05-16T16:46:02.646697'
+  creator_id: 503111095918264322
+  ticket_number: 44
+  ticket_type: Баг на сервере
+'1506613277965291684':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-05-20T11:03:17.196537'
+  creator_id: 503111095918264322
+  ticket_number: 48
+  ticket_type: Вопрос по серверу
+'1507466144393597080':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-05-22T19:32:16.446185'
+  creator_id: 1249605956191387648
+  ticket_number: 49
+  ticket_type: Другое
+'1507633858131267715':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-05-23T06:38:42.508496'
+  creator_id: 1101143569403744266
+  ticket_number: 50
+  ticket_type: Вопрос по серверу
+'1521839036031828030':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-07-01T11:25:00.731623'
+  creator_id: 503111095918264322
+  ticket_number: 80
+  ticket_type: Баг на сервере
+'1523471425833533481':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-07-05T23:31:32.946435'
+  creator_id: 503111095918264322
+  ticket_number: 84
+  ticket_type: Другое
+'1526609035124801566':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-07-14T15:19:17.182817'
+  creator_id: 533600142956167168
+  ticket_number: 95
+  ticket_type: Репорт на игрока
+'1540368969683177523':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-08-21T14:36:21.210132'
+  creator_id: 1028611280090701946
+  ticket_number: 129
+  ticket_type: Баг на сервере
+'1541112051609632940':
+  channel_category_id: 1372988425690550292
+  created_at: '2026-08-23T15:49:05.830208'
+  creator_id: 1028611280090701946
+  ticket_number: 132
+  ticket_type: Создать поселение

@@ -1,0 +1,25 @@
+{
+  "type": "outlabeledPie",
+  "data": {
+    "labels": $LABELS,
+    "datasets": [{
+        "backgroundColor": ["#4F3D74", "#584481", "#634F8B", "#9E87C9", "#B199E0", "#D2BCFD", "#59A46B"],
+        "data": $DATA
+    }]
+  },
+  "options": {
+    "plugins": {
+      "legend": false,
+      "outlabels": {
+        "text": "%l (%p)",
+        "color": "white",
+        "stretch": 35,
+        "font": {
+          "resizable": true,
+          "minSize": 12,
+          "maxSize": 18
+        }
+      }
+    }
+  }
+}

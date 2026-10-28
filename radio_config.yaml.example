@@ -1,0 +1,4 @@
+ping_role_id: 00000000000000000
+post_channel_id: 00000000000000000
+radios:
+webhook_url: <Discord Webhook URL for posting radio messages>

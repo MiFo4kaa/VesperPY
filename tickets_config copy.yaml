@@ -1,0 +1,39 @@
+categories:
+  game_issue:
+    description: ''
+    emoji: "⚠️"
+    label: "In-game issue on the server"
+    modal: generic
+  bug:
+    description: ''
+    emoji: "👾"
+    label: "Server bug"
+    modal: generic
+  consult:
+    description: ''
+    emoji: "❔"
+    label: "Server question"
+    modal: generic
+  settlement:
+    description: ''
+    emoji: "🏠"
+    label: "Create a settlement"
+    modal: settlement
+  report:
+    description: ''
+    emoji: "📢"
+    label: "Report a player"
+    modal: report
+  nickname:
+    description: ''
+    emoji: "🔀"
+    label: "Change nickname"
+    modal: nickname
+  other:
+    description: ''
+    emoji: "✉️"
+    label: "Other"
+    modal: generic
+guild_id: 00000000000000000
+moderator_role_id: 00000000000000000
+ticket_category_id: 00000000000000000
