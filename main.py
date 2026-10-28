@@ -1,10 +1,26 @@
 import os
+from pathlib import Path
+
+
+import yaml
 import disnake
 from disnake.ext import commands
 import traceback
 
 intents = disnake.Intents.all()
 bot = commands.Bot(command_prefix="!", intents=intents)
+
+def loadMainConfig() -> dict:
+    configPath = Path("config.yaml")
+    if not configPath.exists():
+        raise FileNotFoundError("Файл config.yaml не найден.")
+    with open(configPath, "r", encoding="utf-8") as fileStream:
+        return yaml.safe_load(fileStream) or {}
+
+mainConfig = loadMainConfig()
+
+class Config:
+    BOT_TOKEN = mainConfig.get("bot_token")
 
 for file in os.listdir("./cogs"):
     if file.endswith(".py"):
@@ -15,4 +31,4 @@ for file in os.listdir("./cogs"):
             print(f"[ERROR] Не удалось загрузить {extensionName}:")
             traceback.print_exc()
 
-bot.run("MTM4OTkzMDQ3ODA2ODU2NDI1MA.G4vrPK.W2f8E4awleIGWwR56zY9kYeQ8bqmZxyY8feer8")
+bot.run(Config.BOT_TOKEN)
