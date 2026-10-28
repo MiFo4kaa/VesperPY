@@ -68,4 +68,4 @@ VesperPY/
 
 ## 📝 License
 
-[MIT License.](../LICENSE)
+[MIT License.](https://github.com/MiFo4kaa/VesperPY/blob/main/LICENSE)
